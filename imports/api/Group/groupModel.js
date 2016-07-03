@@ -13,18 +13,21 @@ Group.schema = new SimpleSchema({
   },
   adventures: {
     type: [String],
-    optional: false,
+    optional: true,
     label: 'Aventures',
+    defaultValue: [],
   },
   createdAt: {
     type: Date,
     optional: false,
     label: 'Date de création',
+    denyUpdate: true,
   },
   revealedAt: {
     type: Date,
     optional: false,
     label: 'Date de révélation',
+    denyUpdate: true,
   },
 });
 

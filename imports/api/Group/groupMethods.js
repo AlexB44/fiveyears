@@ -8,7 +8,6 @@ Meteor.methods({
     const now = new Date();
     const groupToCreate = {
       name: groupName,
-      adventures: [],
       createdAt: now,
       revealedAt: new Date(now.setFullYear(now.getFullYear() + 5)),
     };
