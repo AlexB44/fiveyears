@@ -1,1 +1,2 @@
-console.log('start server');
+import './configuration';
+import '../../api/Group';
