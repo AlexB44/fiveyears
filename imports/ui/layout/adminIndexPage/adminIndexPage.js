@@ -1,0 +1,1 @@
+import './adminIndexPage.html';

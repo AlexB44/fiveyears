@@ -1,0 +1,29 @@
+site pour écrire nos rêves pour les 5 prochaines années, qui nous envoit un mail 5 ans après pour voir ce que l'on a fait !
+
+création
+_ créer une nouvelle session (nom rigolo)
+_ faire une liste d'objectifs
+_ donner un contact (mail)
+_ inviter des amis (lien et mails)
+
+5 ans après
+_ envoit d'un mail a tous les participants de la session pour dire de venir sur le site
+_ visionnage de tous mes objctifs
+_ cochage de ceux que j'ai accompli
+_ quand tout le monde a partagé, tout le monde reçoit le bilan de chacun
+_ ? si quelqu'un ne repond pas quelque jour plus tard envoyer le bilan sans cette personne
+
+PLUS TARD
+_ chainage des sessions (un invité peut créer facilement une session avec d'autres amis sans tout réécrire)
+_ partage de média dans le cochage d'objectifs (photos de voyage, sons de groupes, vidéos)
+_ on peut donner une addresse postale pour recevoir une lettre ($$$)
+_ permettre de mettre un maximum de moyen de contact (phone, facebook, twitter ect) pour à peu près sûr de recevoir le message
+
+pages
+
+  arrivée sur le site : jolie présentation et champs pour entrer un nom de session (ex les lillois sauvages)
+  création de la liste : nom de la session en haut, champs pour ajouter un objectif et liste des objectifs déjà rentrés
+                          en dessous, bouton pour valider la liste, pop up récapitulatif et validation finale
+  ajout de copain : nom de la session, bouton ne pas ajouter de personne, bouton revenir en arrière, champs pour entrer un mail,
+                    champs pour entrer un prénom, liste des gens ajoutés, 
+  
