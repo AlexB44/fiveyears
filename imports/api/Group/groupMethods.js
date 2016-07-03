@@ -19,4 +19,14 @@ Meteor.methods({
       throw new Meteor.Error(e.message);
     }
   },
+
+  'group.getName'(_id) {
+    check(_id, String);
+    const group = Group.findOne({ _id });
+    if (!group) {
+      throw new Meteor.Error('Ce group n\'existe pas');
+    } else {
+      return group.name;
+    }
+  },
 });
