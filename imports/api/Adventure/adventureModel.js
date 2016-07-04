@@ -32,10 +32,20 @@ Aventure.schema = new SimpleSchema({
     regEx: SimpleSchema.RegEx.Id,
   },
   objectives: {
-    type: [String],
-    optional: true,
+    type: [Object],
+    optional: false,
     label: 'Objectifs',
-    defaultValue: [],
+    minCount: 1,
+  },
+  'objectives.$.goal': {
+    type: String,
+    optional: false,
+    label: 'objectif',
+  },
+  'objectives.$.done': {
+    type: Boolean,
+    optional: true,
+    defaultValue: false,
   },
 });
 

@@ -8,7 +8,13 @@ Template.indexPage.onRendered(() => {
     if (err) {
       console.log(err);
     } else {
-      console.log(id)
+      Meteor.call('adventure.insert', id, [{ goal: 'MANGER' }], (adventureErr, adventureId) => {
+        if (adventureErr) {
+          console.log(adventureErr);
+        } else {
+          console.log(adventureId);
+        }
+      });
     }
   });
 });
