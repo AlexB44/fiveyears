@@ -3,9 +3,22 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
 SimpleSchema.debug = true;
 
-const Aventure = new Mongo.Collection('adventures');
+const Adventure = new Mongo.Collection('adventures');
 
-Aventure.schema = new SimpleSchema({
+Adventure.objectiveSchema = new SimpleSchema({
+  goal: {
+    type: String,
+    optional: false,
+    label: 'objectif',
+  },
+  done: {
+    type: Boolean,
+    optional: true,
+    defaultValue: false,
+  },
+});
+
+Adventure.schema = new SimpleSchema({
   mail: {
     type: String,
     optional: true,
@@ -32,21 +45,11 @@ Aventure.schema = new SimpleSchema({
     regEx: SimpleSchema.RegEx.Id,
   },
   objectives: {
-    type: [Object],
+    type: [Adventure.objectiveSchema],
     optional: false,
     label: 'Objectifs',
     minCount: 1,
   },
-  'objectives.$.goal': {
-    type: String,
-    optional: false,
-    label: 'objectif',
-  },
-  'objectives.$.done': {
-    type: Boolean,
-    optional: true,
-    defaultValue: false,
-  },
 });
 
-export default Aventure;
+export default Adventure;
