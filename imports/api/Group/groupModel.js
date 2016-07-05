@@ -5,6 +5,20 @@ SimpleSchema.debug = true;
 
 const Group = new Mongo.Collection('groups');
 
+Group.AdventurerSchema = new SimpleSchema({
+  name: {
+    type: String,
+    optional: false,
+    label: 'Nom',
+  },
+  mail: {
+    type: String,
+    optional: false,
+    regEx: SimpleSchema.RegEx.Email,
+    label: 'Mail',
+  },
+});
+
 Group.schema = new SimpleSchema({
   name: {
     type: String,
@@ -15,6 +29,12 @@ Group.schema = new SimpleSchema({
     type: [String],
     optional: true,
     label: 'Aventures',
+    defaultValue: [],
+  },
+  adventurers: {
+    type: [Group.AdventurerSchema],
+    optional: true,
+    label: 'Aventuriers',
     defaultValue: [],
   },
   createdAt: {

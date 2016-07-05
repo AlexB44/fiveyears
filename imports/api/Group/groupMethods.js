@@ -28,4 +28,15 @@ Meteor.methods({
       return group.name;
     }
   },
+
+  'group.addAdventurer'(groupId, adventurer) {
+    check(adventurer, Object);
+    check(groupId, String);
+    try {
+      check(adventurer, Group.AdventurerSchema);
+      return Group.update({ _id: groupId }, { $push: { adventurers: adventurer } });
+    } catch (e) {
+      throw new Meteor.Error(e.message);
+    }
+  },
 });

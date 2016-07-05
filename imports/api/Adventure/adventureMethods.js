@@ -8,8 +8,7 @@ Meteor.methods({
     check(objectives, Array);
     try {
       check({ groupId, objectives }, Adventure.schema);
-      const adventureId = Adventure.insert({ groupId, objectives });
-      return adventureId;
+      return Adventure.insert({ groupId, objectives });
     } catch (e) {
       throw new Meteor.Error(e.message);
     }
