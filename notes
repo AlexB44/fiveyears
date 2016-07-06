@@ -1,29 +1,54 @@
 site pour écrire nos rêves pour les 5 prochaines années, qui nous envoit un mail 5 ans après pour voir ce que l'on a fait !
 
-création
-_ créer une nouvelle session (nom rigolo)
-_ faire une liste d'objectifs
-_ donner un contact (mail)
-_ inviter des amis (lien et mails)
+FEATURES
 
-5 ans après
-_ envoit d'un mail a tous les participants de la session pour dire de venir sur le site
-_ visionnage de tous mes objctifs
-_ cochage de ceux que j'ai accompli
-_ quand tout le monde a partagé, tout le monde reçoit le bilan de chacun
-_ ? si quelqu'un ne repond pas quelque jour plus tard envoyer le bilan sans cette personne
+  création
+  _ créer une nouvelle groupe (nom rigolo)
+  _ faire une liste d'objectifs
+  _ donner un contact (mail)
+  _ inviter des amis (lien et mails)
+
+  5 ans après
+  _ envoit d'un mail a tous les participants du groupe pour dire de venir sur le site
+  _ visionnage de tous mes objctifs
+  _ cochage de ceux que j'ai accompli
+  _ quand tout le monde a partagé, tout le monde reçoit le bilan de chacun
+  _ ? si quelqu'un ne repond pas quelque jour plus tard envoyer le bilan sans cette personne
 
 PLUS TARD
-_ chainage des sessions (un invité peut créer facilement une session avec d'autres amis sans tout réécrire)
+_ chainage des sessions (un invité peut créer facilement un groupe avec d'autres amis sans tout réécrire)
 _ partage de média dans le cochage d'objectifs (photos de voyage, sons de groupes, vidéos)
 _ on peut donner une addresse postale pour recevoir une lettre ($$$)
 _ permettre de mettre un maximum de moyen de contact (phone, facebook, twitter ect) pour à peu près sûr de recevoir le message
+_ mettre un tchat dans les pages 5 ans après
+_ passer sur react redux, pas de framework css, no jquery, fetch polyfill
 
-pages
+PAGES
 
-  arrivée sur le site : jolie présentation et champs pour entrer un nom de session (ex les lillois sauvages)
-  création de la liste : nom de la session en haut, champs pour ajouter un objectif et liste des objectifs déjà rentrés
+  création
+  _ arrivée sur le site : jolie présentation et boutons pour se lancer
+  _ création d'un groupe : champs pour entrer un nom de groupe (ex les lillois sauvages)
+  _ création de la liste : nom du groupe en haut, champs pour ajouter un objectif et liste des objectifs déjà rentrés
                           en dessous, bouton pour valider la liste, pop up récapitulatif et validation finale
-  ajout de copain : nom de la session, bouton ne pas ajouter de personne, bouton revenir en arrière, champs pour entrer un mail,
-                    champs pour entrer un prénom, liste des gens ajoutés, 
-  
+  _ ajout de copain : nom du groupe, bouton ne pas ajouter de personne, bouton revenir en arrière, champs pour entrer un mail,
+                    champs pour entrer un prénom, liste des gens ajoutés, bouton pour valider, pop up de confimation qui liste
+                    les informations rentrées
+  _ page de conclusion : récapitulatif de toutes les informations rentrées et "à dans 5 ans !"
+
+  5 ans après
+  _ arrivée sur le site : nom de groupe en haut, message d'accueil avec prénom, liste personnelle cochable, bouton partager avec les
+                          amis dans la groupe, pop up confirmation
+
+  retour sur le site
+  _ bilan : nom de groupe en haut, listes de tous les participants qui l'ont partagé, bouton "on recommence !"
+
+TECHNO
+
+  front
+  _ site html classique
+  _ semantic ui
+  _ jquery
+
+  back
+  _ action hero
+  _ mongoDB
