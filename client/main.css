@@ -1,0 +1,132 @@
+/*====================================================================================*\
+    ELEMENTS
+\*====================================================================================*/
+/**==================================================================================**\
+ * TRUCS...............HTML / BODY / H's                                                                                              
+ * CONTENT.............Les pages                                                        
+ *   * INDEX................First Segment/ Second Segment/ Third Segment                                                         
+ \**==================================================================================**/
+
+
+h1 {
+	padding-top: 60vh;
+	font-family: 'Oxygen', sans-serif;
+	color: #FFF;
+}
+
+/*==========================================================*\ 
+	CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT  
+-------------------------------------------------------------- 
+	INDEX - INDEX - INDEX - INDEX - INDEX - INDEX - INDEX    
+\*==========================================================*/ 
+
+.segments {
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+}
+
+/*===============================*\ 
+	INDEX - FIRST SEGMENT                
+\*===============================*/  
+
+.segment__first {
+ 	background: -prefixe-linear-gradient(top, #662D91 0%, #00A99D 25%,#ffffff);
+	background: linear-gradient(to bottom, #662D91 0%, #00A99D 25%,#ffffff);
+}
+
+.patate {
+	width: 70px;
+  height: 40px;
+  top: 10vh;
+	position: relative;
+	margin: auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+
+.patate > a {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: -35px;
+  transform-origin: left top;
+  transform: rotate(-45deg);
+  background-color: #00A99D;
+}
+
+/*===============================*\ 
+	INDEX - SECOND SEGMENT                
+\*===============================*/ 
+
+.segment__second {
+ 	background-color: #FFF;
+ 	
+}
+
+.segment__second li {
+ 	list-style-type:none; 
+}
+
+.segment__second--steps {
+	padding-top:20vh;
+	width: 60vw;
+	margin: auto;
+	text-align: center;
+}
+
+.step__one {
+	background-color: #662D91;
+	float: left;
+	width: 33%;
+	height: 25vh;
+}
+
+.step__two {
+	background-color: #00A99D;
+	display: inline-block;
+	width: 33%;
+	height: 25vh;
+}
+
+.step__three {
+	background-color: #FFF;
+	float: right;
+	width: 33%;
+	height: 25vh;
+}
+
+/*.segment__second--text {
+	border: red solid 1px;
+	padding-top:20vh;
+	height: 25vh;
+	width: 50vw;
+	margin: auto;
+	text-align: center;
+}*/
+
+/*===============================*\ 
+	INDEX - THIRD SEGMENT                
+\*===============================*/ 
+
+.segment__third {
+ 	background: -prefixe-linear-gradient(top, #00A99D 50%,#662D91);
+	background: linear-gradient(to bottom, #00A99D 50%,#662D91);
+}
+
+.segment__third--text {
+	padding-top: 20vh;
+}
+
+.segment__third--text p{
+	padding-top: 5vh;
+	color:#FFF;
+}
+
+.segment__first p, .segment__third p {
+	font-family: 'Noto Serif', serif;
+ 	width: 80vw;
+ 	margin: auto;
+ 	line-height: 2;
+}
