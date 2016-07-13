@@ -1,5 +1,14 @@
 <template name="goPage">
   <h1>Page pour mettre le nom du groupe qu'on va créer</h1>
   <h3>Petites explications et exemples</h3>
-  <a href="/adventure">Créer son aventure !</a>
+
+  <form class="ui form js-createGroup">
+    <div class="field">
+      <label>Nom du groupe</label>
+      <input name="name" placeholder="ex: les joyeux lurons" type="text">
+    </div>
+    <div class="ui error message"></div>
+    <button class="ui button" type="submit">Submit</button>
+  </form>
+
 </template>
