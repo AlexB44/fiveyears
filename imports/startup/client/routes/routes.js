@@ -19,7 +19,7 @@ FlowRouter.route('/go', {
   },
 });
 
-FlowRouter.route('/adventure', {
+FlowRouter.route('/adventure/:id', {
   name: 'adventurePage',
   action() {
     BlazeLayout.render('adventurePage');
