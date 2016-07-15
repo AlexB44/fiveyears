@@ -7,11 +7,11 @@
  *   * INDEX................First Segment/ Second Segment/ Third Segment                                                         
  \**==================================================================================**/
 
-
-.segment__first h1 {
-	padding-top: 60vh;
-	color: #FFF;
+.adventure__content h3, .gopage__content h3 {
+	padding-bottom: 3vh;
+	padding-top: 10vh;
 	font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
 }
 
 /*==========================================================*\ 
@@ -24,6 +24,12 @@
 	height: 100vh;
 	width: 100vw;
 	text-align: center;
+}
+
+.segment__first h1 {
+	padding-top: 60vh;
+	color: #FFF;
+	font-family: 'Oxygen', sans-serif;
 }
 
 /*===============================*\ 
@@ -189,7 +195,7 @@ svg {
 	GOPAGE - BANNER              
 \*===============================*/ 
 
-.banner {
+.gopage__banner {
 	height: 35vh;
 	width: 100vw;
 }
@@ -205,7 +211,7 @@ svg {
 	GOPAGE - SECOND SEGMENT               
 \*===============================*/ 
 
-.content {
+.gopage__content {
 	height: 65vh;
 	width: 100vw;
 	color: #FFF;
@@ -214,12 +220,7 @@ svg {
 	background-color: #00A99D;
 }
 
-.content h3 {
-	padding-bottom: 3vh;
-	padding-top: 10vh;
-}
-
-.content p {
+.gopage__content p {
 	padding-top: 10vh;
 	margin: 0 auto;
 	width: 70vw;
@@ -228,11 +229,48 @@ svg {
 	line-height: 2;
 }
 
-.content form {
+.gopage__content form {
 	margin: 0 auto;
 	height: 15vh;
 	width: 30vw;
-	border:1px solid #FFF;
+	border-radius: 50px;
+	background-color: #FFF;
+}
+
+/*===============================*\ 
+	ADVENTURE - BANNER              
+\*===============================*/ 
+
+.adventure__banner {
+	height: 35vh;
+	width: 100vw;
+}
+
+.adventure__banner h1 {
+	padding-top: 10vh;
+	color: #00A99D;
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+/*===============================*\ 
+	ADVENTURE - SECOND SEGMENT               
+\*===============================*/ 
+
+.adventure__content {
+	height: 65vh;
+	width: 100vw;
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	background-color: #662D91;
+}
+
+.adventure__content--list {
+	display: inline-block;
+	margin: 0 3vw 0 3vw;
+	height:30vh;
+	width: 30vw;
 	border-radius: 50px;
 	background-color: #FFF;
 }
