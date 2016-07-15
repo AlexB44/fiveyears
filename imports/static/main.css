@@ -8,10 +8,10 @@
  \**==================================================================================**/
 
 
-h1 {
+.segment__first h1 {
 	padding-top: 60vh;
-	font-family: 'Oxygen', sans-serif;
 	color: #FFF;
+	font-family: 'Oxygen', sans-serif;
 }
 
 /*==========================================================*\ 
@@ -37,8 +37,8 @@ h1 {
 
 svg {
 	display:block;
-	width:15vw;
 	margin:0 auto;
+	width:15vw;
 }
 
 /*===============================*\ 
@@ -92,64 +92,65 @@ svg {
 }
 
 .segment__second li {
- 	list-style-type:none;
- 	float: left; 
+	float: left; 
  	display: block;
+ 	list-style-type:none;
 }
 
 .segment__second--steps {
+	margin: auto;
 	padding-top:20vh;
 	width: 60vw;
-	margin: auto;
 	text-align: center;
 }
 
 .step__one {
-	background-color: #662D91;
 	float: left;
+	position:relative;
 	width: 33%;
 	height: 25vh;
-	position:relative;
+	background-color: #662D91;
 }
 
 .step__one .tail {
-    position:absolute;
     left: 100%;
-    border-color:transparent transparent transparent #662D91;
-    border-width: 12.5vh 3vw;
-    border-style:solid;
+    position:absolute;
     z-index:1;
+    border-color:transparent transparent transparent #662D91;
+    border-style:solid;
+    border-width: 12.5vh 3vw;
 }
 
 .step__two {
-	background-color: #00A99D;
-	display: inline-block;
-	width: 33%;
-	height: 25vh;
 	position:relative;
+	display: inline-block;
+	height: 25vh;
+	width: 33%;
+	background-color: #00A99D;
 }
 
 .step__two .tail {
+	left: 100%;
     position:absolute;
-    left: 100%;
     border-color:transparent transparent transparent #00A99D;
-    border-width: 12.5vh 3vw;
     border-style:solid;
+    border-width: 12.5vh 3vw;
 }
 
 .step__three {
-	background-color: #FFF;
 	float: right;
-	width: 33%;
 	height: 25vh;
+	width: 33%;
+	background-color: #FFF;
 }
 
 .step__text {
-	background-color: #FFF;
 	float: left;
+	padding-top: 3vh;
 	width: 33%;
 	height: 25vh;
-	padding-top: 3vh;
+	font-family: 'Lato', sans-serif;
+	background-color: #FFF;
 }
 
 /*===============================*\ 
@@ -171,9 +172,67 @@ svg {
 }
 
 .segment__first p, .segment__third p {
-	font-family: 'Noto Serif', serif;
+	margin: auto;
  	width: 80vw;
- 	margin: auto;
+ 	font-family: 'Noto Serif', serif;
+ 	font-size: 15px;
  	line-height: 2;
 }
 
+/*==========================================================*\ 
+	CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT  
+-------------------------------------------------------------- 
+	  GOPAGE - GOPAGE - GOPAGE - GOPAGE - GOPAGE - GOPAGE
+\*==========================================================*/ 
+
+/*===============================*\ 
+	GOPAGE - BANNER              
+\*===============================*/ 
+
+.banner {
+	height: 35vh;
+	width: 100vw;
+}
+
+.banner h1 {
+	padding-top: 10vh;
+	color: #662D91;
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+/*===============================*\ 
+	GOPAGE - SECOND SEGMENT               
+\*===============================*/ 
+
+.content {
+	height: 65vh;
+	width: 100vw;
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	background-color: #00A99D;
+}
+
+.content h3 {
+	padding-bottom: 3vh;
+	padding-top: 10vh;
+}
+
+.content p {
+	padding-top: 10vh;
+	margin: 0 auto;
+	width: 70vw;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.content form {
+	margin: 0 auto;
+	height: 15vh;
+	width: 30vw;
+	border:1px solid #FFF;
+	border-radius: 50px;
+	background-color: #FFF;
+}
