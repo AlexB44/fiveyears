@@ -7,17 +7,15 @@
  *   * INDEX................First Segment/ Second Segment/ Third Segment                                                         
  \**==================================================================================**/
 
-.gopage__content h3 {
-	padding-bottom: 3vh;
-	padding-top: 10vh;
+/*h3 {
 	font-family: 'Oxygen', sans-serif;
 	font-size: 18px;
 }
 
-.adventure__content h3 {
+h5 {
 	font-family: 'Oxygen', sans-serif;
-	font-size: 18px;
-}
+	font-size: 22px;
+}*/
 
 /*==========================================================*\ 
 	CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT  
@@ -225,6 +223,11 @@ svg {
 	background-color: #00A99D;
 }
 
+.gopage__content h3 {
+	padding-bottom: 3vh;
+	padding-top: 10vh;
+}
+
 .gopage__content--form {
 	display: inline-block;
 	margin: 0 auto;
@@ -363,5 +366,53 @@ svg {
 	padding-left: 2vw;
 /*	border:1px solid black;*/
 }
+
+/*===============================*\ 
+	QUIENESTOU - BANNER              
+\*===============================*/ 
+
+.finito__banner {
+	height: 35vh;
+	width: 100vw;
+}
+
+.finito__banner h1 {
+	padding-top: 10vh;
+	color: #662D91;
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+/*===============================*\ 
+	QUIENESTOU - SECOND SEGMENT               
+\*===============================*/ 
+
+.finito__content h3 {
+	padding-top: 10vh;
+}
+
+.finito__content h4 {
+	padding-top: 5vh;
+	font-size: 22px;
+}
+
+.finito__content {
+	position:absolute;
+	height: 65vh;
+	width: 100vw;
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	background-color: #00A99D;
+}
+
+.finito__content p {
+	margin: 0 auto;
+	padding-top: 5vh;
+	width: 70vw;
+	font-family: 'Lato', sans-serif;
+}
+
+
 
 
