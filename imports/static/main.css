@@ -30,9 +30,10 @@ h5 {
 }
 
 .segment__first h1 {
-	padding-top: 60vh;
-	color: #FFF;
+	padding-top: 50vh;
+	color: #515151;
 	font-family: 'Oxygen', sans-serif;
+	font-size: 42px;
 }
 
 /*===============================*\ 
@@ -40,8 +41,9 @@ h5 {
 \*===============================*/  
 
 .segment__first {
- 	background: -prefixe-linear-gradient(top, #662D91 0%, #00A99D 25%,#ffffff);
-	background: linear-gradient(to bottom, #662D91 0%, #00A99D 25%,#ffffff);
+ 	background: url("img/backadventure.jpg") no-repeat center fixed;
+ 	background-size: cover;
+ 	-webkit-background-size: cover;
 }
 
 svg {
@@ -49,47 +51,6 @@ svg {
 	margin:0 auto;
 	width:15vw;
 }
-
-/*===============================*\ 
-	FIRST SEGMENT - CLOUDS                
-\*===============================*/ 
-
-/*#cloud {
-	width: 120px; height: 60px;
-	background: #f2f9fe;
-	
-	border-radius: 40px;
-	-webkit-border-radius: 40px;
-	-moz-border-radius: 40px;
-	
-	position: relative;
-	margin: 120px auto 20px;
-}
-
-#cloud:after, #cloud:before {
-	content: '';
-	position: absolute;
-	background: #f2f9fe;
-	z-index: 1
-}
-
-#cloud:after {
-	width: 40px; height: 40px;
-	top: -20px; left: 50px;
-	
-	border-radius: 40px;
-	-webkit-border-radius: 40px;
-	-moz-border-radius: 40px;
-}
-
-#cloud:before {
-	width: 80px; height: 80px;
-	top: -20px; right: 40px;
-	
-	border-radius: 70px;
-	-webkit-border-radius: 60px;
-	-moz-border-radius: 60px;
-}*/
 
 /*===============================*\ 
 	INDEX - SECOND SEGMENT                
@@ -118,14 +79,14 @@ svg {
 	position:relative;
 	width: 33%;
 	height: 25vh;
-	background-color: #662D91;
+	background-color: #80d07f;
 }
 
 .step__one .tail {
     left: 100%;
     position:absolute;
     z-index:1;
-    border-color:transparent transparent transparent #662D91;
+    border-color:transparent transparent transparent #80d07f;
     border-style:solid;
     border-width: 12.5vh 3vw;
 }
@@ -135,13 +96,13 @@ svg {
 	display: inline-block;
 	height: 25vh;
 	width: 33%;
-	background-color: #00A99D;
+	background-color: #3d8fb4;
 }
 
 .step__two .tail {
 	left: 100%;
     position:absolute;
-    border-color:transparent transparent transparent #00A99D;
+    border-color:transparent transparent transparent #3d8fb4;
     border-style:solid;
     border-width: 12.5vh 3vw;
 }
@@ -167,8 +128,7 @@ svg {
 \*===============================*/ 
 
 .segment__third {
- 	background: -prefixe-linear-gradient(top, #00A99D 50%,#662D91);
-	background: linear-gradient(to bottom, #00A99D 50%,#662D91);
+ 	background-color: #3d8fb4;
 }
 
 .segment__third--text {
@@ -183,7 +143,7 @@ svg {
 .segment__first p, .segment__third p {
 	margin: auto;
  	width: 80vw;
- 	font-family: 'Noto Serif', serif;
+ 	font-family: 'Lato', sans-serif;
  	font-size: 15px;
  	line-height: 2;
 }
