@@ -332,7 +332,6 @@ svg {
 \*===============================*/ 
 
 .quien__content {
-
 	height: 70vh;
 	width: 100vw;
 	color: #FFF;
@@ -445,25 +444,55 @@ svg {
 	text-align: center;
 }
 
+/*=============================================================*\ 
+	CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT  
+----------------------------------------------------------------- 
+	FINITO - FINITO - FINITO - FINITO - FINITO - FINITO
+\*=============================================================*/ 
+
+#finito {
+	height: 100vh;
+	width: 100vw;
+	background: url("../img/back_finito.jpg") no-repeat fixed;
+ 	background-size: 100vw;
+ 	-webkit-background-size: 100vw;
+}
+
 /*===============================*\ 
 	FINITO - BANNER              
 \*===============================*/ 
 
 .finito__banner {
-	height: 35vh;
+	height: 30vh;
 	width: 100vw;
 }
 
 .finito__banner h1 {
 	padding-top: 10vh;
-	color: #662D91;
+	color: #FFF;
 	font-family: 'Oxygen', sans-serif;
+	font-size: 32px;
 	text-align: center;
+}
+
+.lesautres__banner {
+	height: 30vh;
+	width: 100vw;
 }
 
 /*===============================*\ 
 	FINITO - SECOND SEGMENT               
 \*===============================*/ 
+
+.finito__content {
+	position:absolute;
+	height: 70vh;
+	width: 100vw;
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	background-color: rgba(101, 75, 140, 0.5);
+}
 
 .finito__content h3 {
 	padding-top: 10vh;
@@ -472,16 +501,6 @@ svg {
 .finito__content h4 {
 	padding-top: 5vh;
 	font-size: 22px;
-}
-
-.finito__content {
-	position:absolute;
-	height: 65vh;
-	width: 100vw;
-	color: #FFF;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	background-color: #00A99D;
 }
 
 .finito__content p {
