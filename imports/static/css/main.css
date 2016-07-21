@@ -359,6 +359,92 @@ svg {
 	padding-left: 2vw;
 }
 
+/*=============================================================*\ 
+	CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT  
+----------------------------------------------------------------- 
+	LESAUTRES - LESAUTRES - LESAUTRES - LESAUTRES - LESAUTRES
+\*=============================================================*/ 
+
+#lesautres {
+	height: 100vh;
+	width: 100vw;
+	background: url("../img/back_lesautres.jpg") no-repeat fixed;
+ 	background-size: 100vw;
+ 	-webkit-background-size: 100vw;
+}
+
+/*===============================*\ 
+	ADVENTURE - BANNER              
+\*===============================*/ 
+
+.lesautres__banner {
+	height: 30vh;
+	width: 100vw;
+}
+
+.lesautres__banner h1 {
+	padding-top: 10vh;
+	color: #FFF;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 32px;
+	text-align: center;
+}
+
+/*===============================*\ 
+	ADVENTURE - SECOND SEGMENT               
+\*===============================*/ 
+
+.lesautres__content {
+	position:absolute;
+	height: 70vh;
+	width: 100vw;
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	background-color: rgba(170, 4, 0, 0.5);
+}
+
+.lesautres__content--field, .lesautres__content--list {
+	display: inline-block;
+	height: 30vh;
+	width: 30vw;
+	color:#FFF;
+	font-family: 'Lato', sans-serif;
+}
+
+.lesautres__content--field {
+	float: left;
+	margin: 10vh 0 0 15vw;
+}
+
+.place {
+	margin-top:5px;
+}
+
+.lesautres__content--list {
+	float:right;
+	margin: 10vh 15vw 0 0;
+	position: relative;
+	font-size: 15px;
+}
+
+.lesautres__content--field h3 {
+	padding-left:1vw;
+	color: #98344e;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.8em;
+	line-height: 6vh;
+	background-color: #FFF;
+	border-radius: 4px;
+}
+
+.lesautres__content--ok {
+	margin: 0 auto;
+	margin-top: 50vh;
+	position: relative;
+	width: 10vw;
+	text-align: center;
+}
+
 /*===============================*\ 
 	FINITO - BANNER              
 \*===============================*/ 
