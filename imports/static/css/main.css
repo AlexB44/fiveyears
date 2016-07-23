@@ -1,8 +1,42 @@
+/* IMAGES */
+
+.bal-go-page-intro {
+  background-image: url('../img/firendsbeachhd.jpeg');
+}
+
+.bal-fiveyears-page-intro {
+  background-image: url('../img/maphd.jpeg');
+}
+
 .bal-form-custom {
   background-color: rgba(0, 0, 0, 0.41);
   padding: 30px;
 }
 
-.bal-go-page-intro {
-  background-image: url('../img/firendsbeachhd.jpeg');
+.bal-fiveyears-page-intro .intro-body {
+  vertical-align: initial;
+}
+
+.bal-fiveyears-page-intro h1 {
+  margin-top: 120px;
+}
+
+.bal-body-fiveyears-page {
+  height: 640px;
+  background-color: rgba(0, 0, 0, 0.41);
+  padding: 20px;
+}
+
+.bal-list-objectives {
+  margin-top: 20px;
+  height: 62%;
+  text-align: left;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.41);
+  font-size: 1.2em;
+  font-family: sans-serif; // FUCK LE SERIF
+}
+
+.bal-finish-objectives {
+  margin-top: 20px;
 }
