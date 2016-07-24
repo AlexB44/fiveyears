@@ -8,6 +8,15 @@
   background-image: url('../img/maphd.jpeg');
 }
 
+.download-section {
+  background-image: url('../img/spacehd.jpeg');
+}
+
+.bal-footer-img {
+  background: url('../img/roadhd.jpeg') no-repeat center bottom;
+  background-size: cover;
+}
+
 .bal-form-custom {
   background-color: rgba(0, 0, 0, 0.41);
   padding: 30px;
